@@ -1,1 +1,0 @@
-# laravel-minio-media-library-provider
