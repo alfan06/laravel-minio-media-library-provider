@@ -1,0 +1,27 @@
+{
+  "name": "alfan06/laravel-minio-media-library-provider",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Alfan06\\LaravelMinioMediaLibraryProvider\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Alfan06\\LaravelMinioMediaLibraryProvider\\MinioServiceProvider"
+      ]
+    }
+  },
+  "authors": [
+    {
+      "name": "Chris Bautista"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "league/flysystem-aws-s3-v3": "^3.0",
+    "spatie/laravel-medialibrary": "^10.0"
+  }
+}
